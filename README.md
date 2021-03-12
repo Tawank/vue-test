@@ -14,7 +14,16 @@ Zmiana wartości ma zostać zapisana w postaci obiektu { currentValue: 4, previo
 który zostanie dodany do tablicy history przy pomocy metody .push.
 ### 6. Kolor przycisku ma być zależny od wartości zmiennej counter. Czerwony gdy jest ona mniejsza bądź równa liczbie 25 i zielony jeśli jest większa niż 25.
 
+## MySQL
 
+### Przykładowa tabela
+Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
+-------------- | ------- | ------ | ----- | ------- | ------ | -------
+Przedstawiciel 3 | NN | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
+Przedstawiciel 3 | NN | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
+Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
+Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
+Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
 
 
 
