@@ -1,6 +1,6 @@
 # Test Fullstack JavaScript Developer Music&More
 
-## Vue.js i javascript
+## Vue.js i JavaScript
 
 ### 1. Zrób fork tego repo.
 ### 2. Umieść przycisk w dowlonym miejscu w komponencie HelloWorld. (użycie Vuetify będzie plusem)
