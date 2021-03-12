@@ -29,10 +29,10 @@ Przedstawiciel 26 | NN | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko
 ### 2. Zapytanie powinno zliczać ilość wszystkich przedstawicieli z agencji "NN".
 ### 3. Zapytanie powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół.
 ### 4. Zapytanie powinno wstawić nowy wiersz do tabeli. 
-       Dane do wstawienia:
-       Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
-       -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
-       Przedstawiciel 26 | E | SP 22 Lublin | 2 b | Karol Nowak | Paweł Nowak | 536000782
+   Dane do wstawienia:
+   Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
+   -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
+   Przedstawiciel 26 | E | SP 22 Lublin | 2 b | Karol Nowak | Paweł Nowak | 536000782
 ### 5. Zapytania powinny zostać zamieszczone w pliku zapytania.sql w katalogu głównym projeku.
 
 ## Zakończenie testu
