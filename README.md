@@ -20,25 +20,21 @@ który zostanie dodany do tablicy history przy pomocy metody .push.
 Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
 -------------- | ------- | ------ | ----- | ------- | ------ | -------
 Przedstawiciel 3 | NN | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
-Przedstawiciel 3 | NN | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
-Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
-Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
-Przedstawiciel 26 | NN | SP 10 Dąbrowa Górnicza | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
+Przedstawiciel 3 | AD | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
+Przedstawiciel 26 | OL | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
+Przedstawiciel 26 | XX | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
+Przedstawiciel 26 | NN | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
 
+### 1. Zapytanie powinno wypisywać tylko przedstawicieli i agencje.
+### 2. Zapytanie powinno zliczać ilość wszystkich przedstawicieli z agencji "NN".
+### 3. Zapytanie powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół.
+### 4. Zapytanie powinno wstawić nowy wiersz do tabeli. 
+       Dane do wstawienia:
+       Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
+       -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
+       Przedstawiciel 26 | E | SP 22 Lublin | 2 b | Karol Nowak | Paweł Nowak | 536000782
+### 5. Zapytania powinny zostać zamieszczone w pliku zapytania.sql w katalogu głównym projeku.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 7. Następnie należy wykonać commit o nazwie 'Test zakończony' do swojego forka. (zrobienie pull requesta do tego repo będzię plusem)
-### 8. Link do swojego forka należy wysłać na adres it@szkolamm.pl z tematem wiadomości 'Test Fullstack JavaScript Developer Music&More'.
+## Zakończenie testu
+### 1. Swoje zmiany dokumentujemy wykonując commit o nazwie 'Test zakończony' do swojego forka. (zrobienie pull requesta do tego repo będzię plusem)
+### 2. Link do swojego forka należy wysłać na adres it@szkolamm.pl, a w temacie wiadomości umieścić "Test Fullstack JavaScript Developer Music&More".
