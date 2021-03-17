@@ -18,26 +18,27 @@ który zostanie dodany do tablicy history przy pomocy metody .push.
 ## MySQL
 
 ### Przykładowa tabele
-Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
+Tabela wpisy
+przedstawiciel | agencja | szkola | klasa | dziecko | rodzic | telefon
 -------------- | ------- | ------ | ----- | ------- | ------ | -------
-Przedstawiciel 3 | NN | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
-Przedstawiciel 3 | NN | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
-Przedstawiciel 26 | OL | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
-Przedstawiciel 27 | XX | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
-Przedstawiciel 28 | NN | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
+Przedstawiciel 3 | 1 | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
+Przedstawiciel 3 | 1 | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
+Przedstawiciel 26 | 2 | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
+Przedstawiciel 27 | 4 | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
+Przedstawiciel 28 | 2 | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
 
-Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
-------- | ------ | ----- | ------- | ------ | -------
-NN | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
-NN | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
-OL | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
-XX | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
-NN | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
+Tabela agencje
+id | nazwa | miasto
+-- | ------- | ------
+1 | NN | Lublin
+2 | OL | Łódź
+3 | XX | Kraków
+4 | NN | Dąbrowa Górnicza
 
-### 1. Zapytanie powinno wypisywać tylko przedstawicieli i agencje.
-### 2. Zapytanie powinno zliczać ilość wszystkich przedstawicieli z agencji "NN".
-### 3. Zapytanie powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół.
-### 4. Zapytanie powinno wstawić nowy wiersz do tabeli. 
+### 1. Zapytanie 1 powinno wypisywać tylko przedstawicieli i agencje z tabeli wpisy.
+### 2. Zapytanie 2 powinno zliczać ilość unikalnych przedstawicieli z agencji "NN" z tabeli wpisy.
+### 3. Zapytanie 3 powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół z tabeli wpisy.
+### 4. Zapytanie powinno wstawić nowy wiersz do tabeli wpisy. 
    Dane do wstawienia:
    Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
    -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
