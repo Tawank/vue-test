@@ -19,13 +19,13 @@ który zostanie dodany do tablicy history przy pomocy metody .push.
 
 ### Przykładowa tabele
 Tabela wpisy
-przedstawiciel | agencja | szkola | klasa | dziecko | rodzic | telefon
--------------- | ------- | ------ | ----- | ------- | ------ | -------
-Przedstawiciel 3 | 1 | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
-Przedstawiciel 3 | 1 | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
-Przedstawiciel 26 | 2 | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
-Przedstawiciel 27 | 4 | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
-Przedstawiciel 28 | 2 | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
+id | przedstawiciel | agencja | szkola | klasa | dziecko | rodzic | telefon
+-- | -------------- | ------- | ------ | ----- | ------- | ------ | -------
+1 | Jan Nowak | 1 | SP 22 Lublin | 2 b | Natalia Nazwisko1 | Anna Nazwisko1 | 000-697-765
+2 | Jan Nowak | 1 | SP 22 Lublin | 1 a | Gabriel Nazwisko2 | Malwina Nazwisko2 | 000739920
+3 | Jakub Kowalski | 2 | SP 10 Łódź | 4 b | Karol Nazwisko3 | Halina Nazwisko3 | 000-819-819
+4 | Karol Zegarowski | 4 | SP 10 Dąbrowa Górnicza | 4 b | Maja Nazwisko4 | Hanna Nazwisko4 | 000-004-781
+5 | Jan Nowak | 2 | SP 23 Łódź | 5 b | Nina Nazwisko5 | Michał Nazwisko5 | 000 851 374
 
 Tabela agencje
 id | nazwa | miasto
@@ -38,12 +38,14 @@ id | nazwa | miasto
 ### 1. Zapytanie 1 powinno wypisywać tylko przedstawicieli i agencje z tabeli wpisy.
 ### 2. Zapytanie 2 powinno zliczać ilość unikalnych przedstawicieli z agencji "NN" z tabeli wpisy.
 ### 3. Zapytanie 3 powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół z tabeli wpisy.
-### 4. Zapytanie powinno wstawić nowy wiersz do tabeli wpisy. 
+### 4. Zapytanie 4 powinno wypisywać tylko te agencje z tabeli agnecje, które mają co najmniej jeden wpis w tabeli wpisy.
+### 5. Zapytanie 5 powinno zliczać ilość wpisów zebraną przez daną agencję w postaci tabeli o dwóch kolumnach, która ma zawierać nazwę agencji i ilość wpisów (0, jeśli agencja nie ma żadnych wpisów).
+### 6. Zapytanie 6 powinno wstawić nowy wiersz do tabeli wpisy. 
    Dane do wstawienia:
    Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
    -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
    Przedstawiciel 26 | E | SP 22 Lublin | 2 b | Karol Nowak | Paweł Nowak | 536000782
-### 5. Zapytania powinny zostać zamieszczone w pliku zapytania.sql w katalogu głównym projeku.
+### 7. Zapytania powinny zostać zamieszczone w pliku zapytania.sql w katalogu głównym projeku.
 
 ## Zakończenie testu
 ### Link do swojego forka należy wysłać na adres it@szkolamm.pl, a w temacie wiadomości umieścić "Test Fullstack JavaScript Developer Music&More" (zrobienie pull requesta do tego repo będzię plusem).
