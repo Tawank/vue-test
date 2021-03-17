@@ -33,7 +33,7 @@ id | nazwa | miasto
 1 | NN | Lublin
 2 | OL | Łódź
 3 | XX | Kraków
-4 | NN | Dąbrowa Górnicza
+4 | AB | Dąbrowa Górnicza
 
 ### 1. Zapytanie 1 powinno wypisywać tylko przedstawicieli i agencje z tabeli wpisy.
 ### 2. Zapytanie 2 powinno zliczać ilość unikalnych przedstawicieli z agencji "NN" z tabeli wpisy.
