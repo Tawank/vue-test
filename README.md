@@ -38,13 +38,13 @@ id | nazwa | miasto
 ### 1. Zapytanie 1 powinno wypisywać tylko przedstawicieli i agencje z tabeli wpisy.
 ### 2. Zapytanie 2 powinno zliczać ilość unikalnych przedstawicieli z agencji "NN" z tabeli wpisy.
 ### 3. Zapytanie 3 powinno wypisywać wszystkie dzieci uczęszczające tylko do łódzkich szkół z tabeli wpisy.
-### 4. Zapytanie 4 powinno wypisywać tylko te agencje z tabeli agnecje, które mają co najmniej jeden wpis w tabeli wpisy.
+### 4. Zapytanie 4 powinno wypisywać tylko te nazwy agencji z tabeli agnecje, które mają co najmniej jeden wpis w tabeli wpisy.
 ### 5. Zapytanie 5 powinno zliczać ilość wpisów zebraną przez daną agencję w postaci tabeli o dwóch kolumnach, która ma zawierać nazwę agencji i ilość wpisów (0, jeśli agencja nie ma żadnych wpisów).
 ### 6. Zapytanie 6 powinno wstawić nowy wiersz do tabeli wpisy. 
    Dane do wstawienia:
    Przedstawiciel | Agencja | Szkoła | Klasa | Dziecko | Rodzic | Telefon
    -------------- | ------- | ------ | ----- | ------- | ------ | ------- 
-   Przedstawiciel 26 | E | SP 22 Lublin | 2 b | Karol Nowak | Paweł Nowak | 536000782
+   Przedstawiciel 26 | 3 | SP 22 Kraków | 2 b | Karol Nowak | Paweł Nowak | 536000782
 ### 7. Zapytania powinny zostać zamieszczone w pliku zapytania.sql w katalogu głównym projeku.
 
 ## Zakończenie testu
