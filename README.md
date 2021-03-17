@@ -3,7 +3,7 @@
 ## Vue.js i JavaScript
 
 ### 1. Zrób fork tego repo.
-### 2. Wykonanie każdego z poniższych punktów dokumntuj robiąc commit.
+### 2. Wykonanie każdego z poniższych punktów dokumentuj robiąc commit.
 ### 3. Umieść przycisk w dowlonym miejscu w komponencie HelloWorld. (użycie Vuetify będzie plusem)
 ### 4. Na przycisku umieść wartość zmiennej o nazwie counter, której początkowa wartość to zero.
 ### 5. Każde naciśnięcie przycisku ma zmieniać wartość zmiennej counter.
