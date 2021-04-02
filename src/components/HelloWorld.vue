@@ -8,7 +8,10 @@
           contain
           height="200"
         />
-        <v-btn @click="handleCounter" >
+        <v-btn
+          @click="handleCounter"
+          v-bind:color="counter <= 25 ? 'red' : 'green'"
+        >
           {{counter}}
         </v-btn>
       </v-col>
