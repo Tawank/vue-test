@@ -8,7 +8,7 @@
           contain
           height="200"
         />
-        <v-btn>
+        <v-btn @click="handleCounter" >
           {{counter}}
         </v-btn>
       </v-col>
@@ -22,6 +22,22 @@ export default {
 
   data: () => ({
     counter: 0,
+    isDecreased: false,
   }),
+  methods: {
+    handleCounter() {
+      if (this.counter < 50 && !this.isDecreased) {
+        this.counter += Math.ceil(Math.random() * 5);
+        if (this.counter >= 50) {
+          this.isDecreased = true;
+        }
+      } else if (this.isDecreased) {
+        this.counter -= 2;
+        if (this.counter <= 0) {
+          this.isDecreased = false;
+        }
+      }
+    },
+  },
 };
 </script>
