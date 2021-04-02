@@ -23,9 +23,11 @@ export default {
   data: () => ({
     counter: 0,
     isDecreased: false,
+    history: [],
   }),
   methods: {
     handleCounter() {
+      const historyObject = { previousValue: this.counter };
       if (this.counter < 50 && !this.isDecreased) {
         this.counter += Math.ceil(Math.random() * 5);
         if (this.counter >= 50) {
@@ -37,6 +39,10 @@ export default {
           this.isDecreased = false;
         }
       }
+      historyObject.currentValue = this.counter;
+      historyObject.difference = historyObject.currentValue - historyObject.previousValue;
+      historyObject.operation = historyObject.difference > 0 ? 'addition' : 'subtraction';
+      this.history.push(historyObject);
     },
   },
 };
