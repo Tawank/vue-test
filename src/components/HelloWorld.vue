@@ -13,7 +13,9 @@
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">Welcome to Vuetify</h1>
 
-        <v-btn outlined @click="counter += 1">{{ counter }}</v-btn>
+        <v-btn outlined @click="handleCounter" :style="counter">{{
+          counter
+        }}</v-btn>
 
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
@@ -132,6 +134,22 @@ export default {
       },
     ],
     counter: 0,
+    isAddition: true,
   }),
+  methods: {
+    handleCounter() {
+      if (this.isAddition) {
+        const randomNumber = Math.floor(Math.random() * 5) + 1;
+        this.counter += randomNumber;
+      } else {
+        this.counter -= 2;
+      }
+      if (this.counter >= 50) {
+        this.isAddition = false;
+      } else if (this.counter <= 0) {
+        this.isAddition = true;
+      }
+    },
+  },
 };
 </script>
