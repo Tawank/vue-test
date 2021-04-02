@@ -13,9 +13,12 @@
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">Welcome to Vuetify</h1>
 
-        <v-btn outlined @click="handleCounter" :style="counter">{{
-          counter
-        }}</v-btn>
+        <v-btn
+          outlined
+          @click="handleCounter"
+          :color="counter >= 25 ? 'green' : 'red'"
+          >{{ counter }}</v-btn
+        >
 
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
