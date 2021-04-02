@@ -135,9 +135,12 @@ export default {
     ],
     counter: 0,
     isAddition: true,
+    history: [],
   }),
   methods: {
     handleCounter() {
+      const prev = this.counter;
+
       if (this.isAddition) {
         const randomNumber = Math.floor(Math.random() * 5) + 1;
         this.counter += randomNumber;
@@ -149,6 +152,14 @@ export default {
       } else if (this.counter <= 0) {
         this.isAddition = true;
       }
+
+      this.history.push({
+        currentValue: this.counter,
+        previousValue: prev,
+        diffrence: this.counter - prev,
+        operation: this.counter - prev > 0 ? 'add' : 'sub',
+      });
+      console.log(this.history);
     },
   },
 };
